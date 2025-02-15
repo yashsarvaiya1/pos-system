@@ -1,4 +1,6 @@
 import Image from "next/image";
+import { Greet } from "./componenets/greet";
+import { Counter } from "./componenets/counter";
 
 export default function Home() {
   return (
@@ -21,6 +23,8 @@ export default function Home() {
             .
           </li>
           <li>Vivek Panchal</li>
+          <Greet/>
+          <Counter/>
         </ol>
 
         <div className="flex gap-4 items-center flex-col sm:flex-row">
